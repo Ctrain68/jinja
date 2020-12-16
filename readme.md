@@ -1,6 +1,7 @@
-Templating introduction - `https://www.youtube.com/watch?v=bxhXQG1qJPM&ab_channel=Mr.Rigden`
-Flask-Jinja - `https://www.youtube.com/watch?v=QnDWIZuWYW0&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=2&ab_channel=CoreySchafer`
-Jinja cheat sheet - `https://dev.to/sm0ke/jinja-template-cheat-sheet-and-free-sample-28kh`
+- Templating introduction - `https://www.youtube.com/watch?v=bxhXQG1qJPM&ab_channel=Mr.Rigden`
+- Flask-Jinja - `https://www.youtube.com/watch?v=QnDWIZuWYW0&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=2&ab_channel=CoreySchafer`
+- Jinja cheat sheet - `https://dev.to/sm0ke/jinja-template-cheat-sheet-and-free-sample-28kh`
+- Bootstrap `https://getbootstrap.com/docs/4.3/components/alerts/`
 
 # Lets do this thing
 
