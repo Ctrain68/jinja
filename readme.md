@@ -2,6 +2,10 @@ Templating introduction - `https://www.youtube.com/watch?v=bxhXQG1qJPM&ab_channe
 Flask-Jinja - `https://www.youtube.com/watch?v=QnDWIZuWYW0&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=2&ab_channel=CoreySchafer`
 Jinja cheat sheet - `https://dev.to/sm0ke/jinja-template-cheat-sheet-and-free-sample-28kh`
 
+# Lets do this thing
+
+Clone this repo: https://github.com/CoderAcademyEdu/ccc-03-16
+
 First we need to setup our DB. Becasue I have the maturity of a 13 year old boy we will be using the below example.
 Feel free to copy paste the commands below to get your DB up and running.
 
@@ -25,12 +29,13 @@ Copy paste the commands and we should have Bamazon up and running.
 | Install the requirements                | `pip3 install -r requirements.txt` |
 | Set the app to main.py                  | `export FLASK_APP=main.py`         |
 | Set the environment to development mode | `export FLASK_ENV=development`     |
+| Make sure the .env has dummy data       | anything                           |
 | Upgrade the db with the migrations      | `flask db upgrade`                 |
 | Seed the DB                             | `flask db-custom seed`             |
-| Run the app                             | `Flask Run`                        |
+| Run the app                             | `flask Run`                        |
 | Check the index, go to this url ->      | `http://127.0.0.1:5000/books/`     |
 
-1. Create a directory called templates
+1. Create a directory called templates on the same level as main.py
 2. Add a html file inside templates called layout.html
 
 Add the following code to it.
@@ -56,12 +61,11 @@ This is the html file that our template will be inheriting from.
 add the following code to it.
 
 ```
-
 {% extends "layout.html" %}
 
 {% block content %}
     {% for book in books %}
-        <div> book.title </div>
+        <div> {{book.title}} </div>
     {% endfor %}
 {% endblock %}
 ```
@@ -211,3 +215,5 @@ Have a look at these different cards. You can choose which ever one you want but
     {% endfor %}
 {% endblock %}
 ```
+
+#That is all you need to pass the front end criteria of this assessment.
